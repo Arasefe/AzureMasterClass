@@ -27,18 +27,18 @@
       "value": "rg-infra-scus"
     },
     "domainAdminUserName": {
-      "value": "savilltech\\savadmin"
+      "value": "cavalry\\admin"
     },
     "domainAdminPassword": {
       "reference": {
         "keyVault": {
           "id": "/subscriptions/91cce250-2431-454c-a9d8-def5e1dc628b/resourceGroups/rg-infra-scus/providers/Microsoft.KeyVault/vaults/CavalryKeyVault"
         },
-        "secretName": "savadminpass"
+        "secretName": "cavalryadminpass"
       }
     },
     "domainFQDN": {
-      "value": "savilltech.net"
+      "value": "cavalry.net"
     }
   }
 }
