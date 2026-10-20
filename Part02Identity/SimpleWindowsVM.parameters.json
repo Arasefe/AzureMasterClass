@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "location": {
-      "value": "southcentralus"
+      "value": "centralus2"
     },
     "vmName": {
       "value": "demoVM1"
@@ -12,7 +12,7 @@
       "value": "demoadmin"
     },
     "virtualMachineAdminPassword": {
-      "value": "Pa55wordPa55word"
+      "value": "<your-admin-password>"
     },
     "virtualMachineSize": {
       "value": "Standard_DS2_v2"
@@ -24,7 +24,7 @@
       "value": "TestSub"
     },
     "virtualNetworkResourceGroup": {
-      "value": "RG-Infra-SCUS"
+      "value": "rg-infra-scus"
     },
     "domainAdminUserName": {
       "value": "savilltech\\savadmin"
@@ -32,7 +32,7 @@
     "domainAdminPassword": {
       "reference": {
         "keyVault": {
-          "id": "/subscriptions/414a65b2-9107-4c6c-b65b-8ffac188a207/resourceGroups/RG-Infra-SCUS/providers/Microsoft.KeyVault/vaults/SavKeyVault"
+          "id": "/subscriptions/91cce250-2431-454c-a9d8-def5e1dc628b/resourceGroups/rg-infra-scus/providers/Microsoft.KeyVault/vaults/CavalryKeyVault"
         },
         "secretName": "savadminpass"
       }
